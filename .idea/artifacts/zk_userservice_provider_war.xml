@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="zk-userservice-provider:war">
+    <output-path>$PROJECT_DIR$/zk-userservice-provider/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>zk-userservice-provider</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="zk-userservice-provider-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="zk-userservice-provider:war exploded" />
+    </root>
+  </artifact>
+</component>
